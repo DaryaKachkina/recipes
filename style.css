@@ -62,15 +62,16 @@ body{
 }
 .main22{
     height: 500px;
-    width: 1450px;
+    max-width: 1000px;
     display: flex;
+    justify-content: space-evenly;
     margin: 0 auto;
 }
 .main2_1, .main2_2{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-right: 50px;
+    margin: 0 20px;
 }
 .c1{
     margin-bottom: 20px;
@@ -110,8 +111,9 @@ body{
     justify-content: center;
 }
 .main4_1{
+    max-width: 80%;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 450px 450px;
 }
 .main4_1_1{
@@ -167,8 +169,9 @@ body{
     justify-content: center;
 } 
 .main5_1{
+    max-width: 80%;
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: auto auto;
     grid-template-rows: 550px 550px;
     grid-row-gap: 70px;
 }
@@ -212,6 +215,10 @@ body{
    margin: 50px 0;
    text-align: center;
 }
+.main_6{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .main6 h1{
     margin-bottom: 50px;
@@ -222,7 +229,7 @@ body{
 
 .main6_1{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 235px 235px 235px 235px;
     grid-template-rows: 300px 300px;
     grid-gap: 10px;
 }
@@ -268,6 +275,7 @@ body{
 }
 
 .main7_1{
+    max-width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 500px;
