@@ -157,6 +157,7 @@ body{
 }
  p a{
      color: #000;
+     line-height: 2;
      letter-spacing: 2px;
      text-decoration: none;
      border-bottom: 2px solid black;
